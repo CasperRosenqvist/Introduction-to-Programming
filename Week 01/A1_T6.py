@@ -5,4 +5,4 @@ Remainder = Value % 2
 
 print("Value is", Value)
 
-print("The remainders is", Remainder, "when", Value, "is divided by 2.")
+print("The remainder is", Remainder, "when", Value, "is divided by 2.")
