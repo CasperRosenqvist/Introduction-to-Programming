@@ -27,7 +27,7 @@ def main():
             print("Count increased!\n")
         elif choice == 3:
             count = 0
-            print("Cleared count\n")
+            print("Cleared count!\n")
         elif choice == 0:
             print("Exiting program.\n")
             break
