@@ -1,7 +1,5 @@
 print("Program starting.\n")
 
-print("Program starting.\n")
-
 start = int(input("Insert staring value: "))
 stop = int(input("Insert stopping value: "))
 

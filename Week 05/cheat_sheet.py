@@ -17,11 +17,12 @@
 #print(greet("Mira"))
 
 
-def greeting_airport(person, age):
-    print(f"How do you do {person}?")
-    if age >=18:
-        print("Welcome to your flight!")
-    else:
-        print(f"You need to wait for {18-age} years to fly solo.")
+#def greeting_airport(person, age):
+ #   print(f"How do you do {person}?")
+  #  if age >=18:
+   #     print("Welcome to your flight!")
+   # else:
+   #     print(f"You need to wait for {18-age} years to fly solo.")
 
-greeting_airport("Casper", 16)
+#greeting_airport("Casper", 16)
+

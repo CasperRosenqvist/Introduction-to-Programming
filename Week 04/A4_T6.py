@@ -1,6 +1,6 @@
 
 print("Program starting.")
-integer = int(input("Insert positive integer: "))
+integer = int(input("Insert a positive integer: "))
 rounds = 0
 
 while integer != 1:
