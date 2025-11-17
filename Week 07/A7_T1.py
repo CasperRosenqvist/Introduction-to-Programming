@@ -1,26 +1,32 @@
-def collector(integers):
+def collector():
     print("Collect positive integers.")
-    index = -1
+    integers = []
     while True:
         integer = int(input("Insert positive integer (negative stops): "))
         if integer >= 0:
             integers.append(integer)
-            index += 1
-        elif integer < 0:
+        else:
             print("Stopped collecting positive integers.")
             break
     return integers
 
-def results(total):
-    print(f"Dispalying {len(total)} integers")
+
+def results(integers):
+    if len(integers) == 0:
+        print("No integers to display.")
+    else:
+        print(f"Displaying {len(integers)} integers:")
+        index = 0
+        for value in integers:
+            ordinal = index + 1
+            print(f"-Index: {index} -> Ordinal: {ordinal} -> Integer: {value}")
+            index += 1
 
 def main():
     print("Program starting.")
-    integers = []
-    total = collector(integers)
-    results(total)
+    integers = collector()
+    results(integers)
     print("Program ending.")
-    return None
 
 if __name__ == "__main__":
     main()
